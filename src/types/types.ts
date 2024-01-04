@@ -1,3 +1,6 @@
+// Future - extract to different files
+
+
 export interface Post {
   id: number;
   title: string;

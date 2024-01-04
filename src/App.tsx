@@ -4,7 +4,7 @@ import Statistics from "./pages/Statistics/statistics";
 
 /*
   List of overall things I would change:
-    1. I might change the way the data is fetched. I might use a GraphQL API instead of REST because of the way the api is designed.
+    1. I might change the way the data is fetched.
     2. I would Change the overall design & add toasts, modals, skeletons to improve user experience.
     3. I would create Zustand store to manage the state of the application, with different slices for different parts of the application.
     4. I would modular the components even more to make them more reusable, testable and maintainable.

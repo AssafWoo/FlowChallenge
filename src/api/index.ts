@@ -2,7 +2,7 @@ const API_URL = "http://rest.flowsec.xyz/"; // Future - move to env variable
 
 
 // Future - handle errors in a better way.
-// Future - create a more generic function to handle all requests.
+// Future - create a more generic function to handle all requests & possible errors.
 
 export const fetchAllPosts = async () => {
   const response = await fetch(`${API_URL}posts`);

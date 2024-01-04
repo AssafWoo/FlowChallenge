@@ -1,4 +1,4 @@
-import { combinePostData } from "../utils/combineData";
+import { combinePostData } from "../utils/combinePostData";
 import { useComments } from "./useComments";
 import { usePaginatedPosts } from "./usePosts";
 import { useUsers } from "./useUsers";
