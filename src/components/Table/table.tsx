@@ -83,7 +83,7 @@ const Table = <T extends Data>({ columns, data }: TableProps<T>) => {
                   <Th
                     width="12rem"
                     key={header.id}
-                    backgroundColor="#5CAFFF"
+                    backgroundColor="#5CAFFF" // Future - move to a color constant
                     color="white"
                   >
                     {flexRender(

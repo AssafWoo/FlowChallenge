@@ -11,6 +11,7 @@ import {
     setSearchTerm: React.Dispatch<React.SetStateAction<string>>;
   };
   
+  // Future - make this a reusable component that can be used for filtering as well, also as a search for multiple tables.
   const Search = ({
     searchTerm,
     setSearchTerm,
@@ -24,7 +25,7 @@ import {
             <IoIosSearch />
           </InputLeftAddon>
           <Input
-            placeholder="Search posts..."
+            placeholder="Search posts..." // Change this to be more dynamic
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             flex="2 0 60%"

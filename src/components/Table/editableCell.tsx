@@ -10,6 +10,7 @@ interface EditableCellProps {
   onEditSuccess: () => void;
 }
 
+// Future - design the editable input field in a different way.
 const EditableCell: React.FC<EditableCellProps> = ({
   initialValue,
   itemId,
@@ -18,7 +19,6 @@ const EditableCell: React.FC<EditableCellProps> = ({
   onEditSuccess,
 }) => {
   const [value, setValue] = useState(initialValue);
-
 
   const onEdit = async () => {
     if (value !== initialValue) {

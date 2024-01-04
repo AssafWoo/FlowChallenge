@@ -97,8 +97,9 @@ const PostsPage = () => {
           _hover={{ bg: "transparent" }}
           onClick={() => deletePostHandler(row.original.id)}
         >
-          <FaTrash color="red" />
+          <FaTrash color="red" /> 
         </Button>
+        // Future - move to a color constant
       ),
     },
   ];
